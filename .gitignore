@@ -1,4 +1,6 @@
 .venv
 .vscode
 __pycache__
+
 data
+params.json
