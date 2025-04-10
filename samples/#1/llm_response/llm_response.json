@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "O que é um Large Language Model (LLM)?", "answer": "São modelos de linguagem treinados com grandes volumes de texto." },
+  { "id": "2", "question": "Como os LLMs são treinados?", "answer": "São treinados com textos para aprender padrões linguísticos." },
+  { "id": "3", "question": "O que significa fine-tuning em LLMs?", "answer": "É a personalização de um modelo com dados específicos." },
+  { "id": "4", "question": "Qual a diferença entre GPT e BERT?", "answer": "GPT é gerador de texto; BERT entende melhor o contexto." },
+  { "id": "5", "question": "O que é tokenização em NLP?", "answer": "Processo de dividir textos em pedaços menores chamados tokens." },
+  { "id": "6", "question": "Como LLMs lidam com contexto?", "answer": "Utilizando atenção para focar em palavras relevantes." },
+  { "id": "7", "question": "LLMs podem entender código?", "answer": "Podem, se forem treinados com dados de programação." },
+  { "id": "8", "question": "LLMs cometem erros?", "answer": "Sim, frequentemente." },
+  { "id": "9", "question": "O que é hallucination em LLM?", "answer": "Quando um modelo inventa informações." },
+  { "id": "10", "question": "Como podemos avaliar a qualidade de um LLM?", "answer": "Comparando com respostas humanas ou referências." }
+]

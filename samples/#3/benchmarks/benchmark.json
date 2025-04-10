@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "O que é PEP8?", "answer": "PEP8 é o guia oficial de estilo para código Python, promovendo legibilidade e consistência." },
+  { "id": "2", "question": "Por que usar tipagem em Python?", "answer": "Ajuda na leitura do código e na detecção precoce de erros." },
+  { "id": "3", "question": "Quando usar funções puras?", "answer": "Sempre que possível, pois são previsíveis, testáveis e evitam efeitos colaterais." },
+  { "id": "4", "question": "Como nomear variáveis corretamente?", "answer": "Use nomes descritivos e minúsculos com underscore, como 'user_name'." },
+  { "id": "5", "question": "O que é o princípio 'EAFP'?", "answer": "É mais fácil pedir perdão do que permissão – tente e trate exceções." },
+  { "id": "6", "question": "Por que evitar importações globais?", "answer": "Elas dificultam a leitura, aumentam dependências e podem causar conflitos." },
+  { "id": "7", "question": "Como documentar uma função?", "answer": "Usando docstrings com descrição, parâmetros e retorno." },
+  { "id": "8", "question": "Por que evitar funções muito longas?", "answer": "Funções longas são difíceis de entender, testar e manter." },
+  { "id": "9", "question": "O que são context managers?", "answer": "São usados com 'with' para lidar com recursos como arquivos de forma segura." },
+  { "id": "10", "question": "Como organizar um projeto Python?", "answer": "Use uma estrutura modular, com separação de responsabilidades e pastas claras como src/, tests/, docs/." }
+]

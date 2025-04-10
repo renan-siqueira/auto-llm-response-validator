@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "O que é um Large Language Model (LLM)?", "answer": "LLMs são modelos de aprendizado de máquina treinados com grandes quantidades de texto para entender e gerar linguagem natural." },
+  { "id": "2", "question": "Como os LLMs são treinados?", "answer": "Eles são treinados usando aprendizado não supervisionado em grandes corpora de texto, prevendo palavras seguintes em frases." },
+  { "id": "3", "question": "O que significa fine-tuning em LLMs?", "answer": "Fine-tuning é o processo de ajustar um modelo pré-treinado em um conjunto de dados específico para melhorar sua performance em tarefas particulares." },
+  { "id": "4", "question": "Qual a diferença entre GPT e BERT?", "answer": "GPT é autoregressivo e gera texto sequência por sequência; BERT é bidirecional e melhor em tarefas de compreensão." },
+  { "id": "5", "question": "O que é tokenização em NLP?", "answer": "É o processo de dividir texto em unidades menores (tokens), como palavras ou subpalavras." },
+  { "id": "6", "question": "Como LLMs lidam com contexto?", "answer": "Usam mecanismos de atenção para dar pesos diferentes a partes do texto e manter coerência contextual." },
+  { "id": "7", "question": "LLMs podem entender código?", "answer": "Sim, se forem treinados com dados de código, eles conseguem interpretar e gerar código." },
+  { "id": "8", "question": "LLMs cometem erros?", "answer": "Sim. Mesmo grandes modelos podem gerar respostas incorretas ou incoerentes." },
+  { "id": "9", "question": "O que é hallucination em LLM?", "answer": "É quando o modelo gera uma resposta plausível, mas incorreta ou inventada." },
+  { "id": "10", "question": "Como podemos avaliar a qualidade de um LLM?", "answer": "Usamos métricas como ROUGE, BLEU e similaridade semântica para comparar respostas geradas com referências esperadas." }
+]

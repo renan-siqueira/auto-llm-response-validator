@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "O que é versionamento com Git?", "answer": "É controlar alterações no código com histórico completo." },
+  { "id": "2", "question": "Por que é importante usar branches?", "answer": "Para organizar e separar mudanças no código." },
+  { "id": "3", "question": "O que é um commit atômico?", "answer": "É um commit que faz apenas uma coisa." },
+  { "id": "4", "question": "Como escrever mensagens de commit claras?", "answer": "Use verbos de ação e detalhe o que foi feito." },
+  { "id": "5", "question": "O que é git rebase?", "answer": "Serve para reorganizar os commits no histórico." },
+  { "id": "6", "question": "Por que evitar commits diretos na main?", "answer": "Para manter a estabilidade do projeto." },
+  { "id": "7", "question": "Como lidar com conflitos de merge?", "answer": "Resolva os conflitos manualmente e teste depois." },
+  { "id": "8", "question": "O que é um pull request?", "answer": "É uma forma de propor mudanças no código." },
+  { "id": "9", "question": "Por que usar .gitignore?", "answer": "Para ignorar arquivos que não devem ir para o repositório." },
+  { "id": "10", "question": "Quando usar tags no Git?", "answer": "Ao lançar uma nova versão ou release." }
+]
