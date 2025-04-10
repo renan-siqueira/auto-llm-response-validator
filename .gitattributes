@@ -1,0 +1,14 @@
+# Tratamento de final de linha
+* text=auto eol=lf
+
+# Arquivos binários
+*.bin binary
+*.pt binary
+*.model binary
+
+# Arquivos do modelo como texto
+*.json text
+*.txt text
+
+# Diretório completo do modelo (tratado como conteúdo versionável)
+models/** linguist-vendored
