@@ -1,0 +1,45 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+___ 
+
+## [0.2.0] - 2025-04-10
+### Added
+- `samples/` folder with 3 educational examples:
+  - LLMs overview
+  - Git best practices
+  - Python best practices
+- Field `question` added to `results.json`
+- Field `expected_score` added to `results.json`
+- `.gitattributes` configuration for model persistence
+- Linux setup script (`setup_env.sh`)
+
+### Changed
+- Removed unused `threshold` parameter from codebase and setup files
+- Improved logging with top-N lowest scores in CLI output
+- Cleaned up JSON result field ordering
+- Improved accuracy in `README.md` to reflect recent updates
+
+### Fixed
+- Bug in handling multiple answers per question
+- Validation bug when `answer` field was missing or blank
+
+### Removed
+- Redundant `threshold` logic from `compare_responses`
+
+### Version
+- Bumped version to 0.2.0
+___
+
+## [0.1.0] - 2025-04-10
+### Added
+- Core CLI script: `validate_response.py`
+- Semantic validation via `sentence-transformers`
+- ROUGE-L validation via `rouge-score`
+- JSON config via `--json-path`
+- Project folder scaffolding with setup scripts
+- Local model loader using `SentenceTransformer`
+- Output JSON report + CLI summary
+
+### Version
+- First stable version: 0.1.0
