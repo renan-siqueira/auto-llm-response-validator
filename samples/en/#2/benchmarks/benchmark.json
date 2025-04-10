@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "What is version control with Git?", "answer": "It's the process of tracking changes to code files over time." },
+  { "id": "2", "question": "Why is it important to use branches?", "answer": "Branches isolate features or fixes, avoiding conflicts in the main code." },
+  { "id": "3", "question": "What is an atomic commit?", "answer": "An atomic commit contains only one logical change." },
+  { "id": "4", "question": "How to write clear commit messages?", "answer": "Use imperative verbs and be clear about the change, like 'Add login test'." },
+  { "id": "5", "question": "What is git rebase?", "answer": "Rebase reorganizes commits to maintain a linear and clean history." },
+  { "id": "6", "question": "Why avoid direct commits to main?", "answer": "To prevent breaking the main and keep it stable." },
+  { "id": "7", "question": "How to resolve merge conflicts?", "answer": "Manually review and test before completing the merge." },
+  { "id": "8", "question": "What is a pull request?", "answer": "A request to merge changes from one branch to another, usually with code review." },
+  { "id": "9", "question": "Why use .gitignore?", "answer": "To prevent sensitive or irrelevant files from being versioned." },
+  { "id": "10", "question": "When to use tags in Git?", "answer": "To mark important versions like releases." }
+]

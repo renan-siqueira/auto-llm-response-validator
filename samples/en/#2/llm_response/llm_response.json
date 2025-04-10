@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "What is version control with Git?", "answer": "It's tracking changes in code with history." },
+  { "id": "2", "question": "Why is it important to use branches?", "answer": "To organize and separate code changes." },
+  { "id": "3", "question": "What is an atomic commit?", "answer": "A commit that does only one thing." },
+  { "id": "4", "question": "How to write clear commit messages?", "answer": "Use action verbs and describe the change." },
+  { "id": "5", "question": "What is git rebase?", "answer": "It rearranges commits in the history." },
+  { "id": "6", "question": "Why avoid direct commits to main?", "answer": "To keep the project stable." },
+  { "id": "7", "question": "How to resolve merge conflicts?", "answer": "Fix the conflicts manually and test afterward." },
+  { "id": "8", "question": "What is a pull request?", "answer": "A way to propose code changes." },
+  { "id": "9", "question": "Why use .gitignore?", "answer": "To ignore files that shouldn't be in the repo." },
+  { "id": "10", "question": "When to use tags in Git?", "answer": "When releasing a new version." }
+]

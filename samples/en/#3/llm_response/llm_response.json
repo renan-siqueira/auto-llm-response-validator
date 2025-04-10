@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "What is PEP8?", "answer": "Style guide for Python code." },
+  { "id": "2", "question": "Why use type hints in Python?", "answer": "Improves clarity and reduces errors." },
+  { "id": "3", "question": "When should you use pure functions?", "answer": "When avoiding side effects is important." },
+  { "id": "4", "question": "How to name variables properly?", "answer": "Use clear names with underscores." },
+  { "id": "5", "question": "What is the EAFP principle?", "answer": "Try first, handle errors later." },
+  { "id": "6", "question": "Why avoid global imports?", "answer": "They can cause problems and reduce code clarity." },
+  { "id": "7", "question": "How to document a function?", "answer": "Use docstrings explaining what it does." },
+  { "id": "8", "question": "Why avoid long functions?", "answer": "Because they’re harder to understand and maintain." },
+  { "id": "9", "question": "What are context managers?", "answer": "Tools that manage resources automatically." },
+  { "id": "10", "question": "How to organize a Python project?", "answer": "With a clear and modular structure." }
+]

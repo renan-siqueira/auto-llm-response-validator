@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "What is PEP8?", "answer": "PEP8 is the official style guide for Python code, promoting readability and consistency." },
+  { "id": "2", "question": "Why use type hints in Python?", "answer": "They help readability and early error detection." },
+  { "id": "3", "question": "When should you use pure functions?", "answer": "Whenever possible, as they are predictable, testable, and side-effect free." },
+  { "id": "4", "question": "How to name variables properly?", "answer": "Use descriptive, lowercase names with underscores, like 'user_name'." },
+  { "id": "5", "question": "What is the EAFP principle?", "answer": "Easier to ask for forgiveness than permission – try and handle exceptions." },
+  { "id": "6", "question": "Why avoid global imports?", "answer": "They make code harder to read, increase dependencies, and may cause conflicts." },
+  { "id": "7", "question": "How to document a function?", "answer": "Using docstrings with description, parameters, and return." },
+  { "id": "8", "question": "Why avoid long functions?", "answer": "Long functions are harder to read, test, and maintain." },
+  { "id": "9", "question": "What are context managers?", "answer": "Used with 'with' to handle resources like files safely." },
+  { "id": "10", "question": "How to organize a Python project?", "answer": "Use modular structure with clear folders like src/, tests/, docs/." }
+]
