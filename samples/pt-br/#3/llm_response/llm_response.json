@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "O que é PEP8?", "answer": "Guia de estilo para código Python." },
+  { "id": "2", "question": "Por que usar tipagem em Python?", "answer": "Melhora a clareza e reduz erros." },
+  { "id": "3", "question": "Quando usar funções puras?", "answer": "Quando quiser evitar efeitos colaterais." },
+  { "id": "4", "question": "Como nomear variáveis corretamente?", "answer": "Use nomes claros e separados por underscore." },
+  { "id": "5", "question": "O que é o princípio 'EAFP'?", "answer": "Tente e trate erros, ao invés de verificar antes." },
+  { "id": "6", "question": "Por que evitar importações globais?", "answer": "Podem causar problemas no código e dificultar manutenção." },
+  { "id": "7", "question": "Como documentar uma função?", "answer": "Com docstrings informando o que ela faz." },
+  { "id": "8", "question": "Por que evitar funções muito longas?", "answer": "Porque dificultam a leitura e manutenção." },
+  { "id": "9", "question": "O que são context managers?", "answer": "Ferramentas que gerenciam recursos automaticamente." },
+  { "id": "10", "question": "Como organizar um projeto Python?", "answer": "Com uma estrutura clara e modular." }
+]

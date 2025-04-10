@@ -22,9 +22,9 @@ chmod +x setup_env.sh
 
 These setup scripts:
 
-- 🔧 Create a Python virtual environment
-- 📦 Install all dependencies
-- 📁 Create folder structure and necessary files
+- 🔧 Create a Python virtual environment  
+- 📦 Install all dependencies  
+- 📁 Create folder structure and necessary files  
 - 📝 Generate a default config (`params.json`)
 
 ✅ **Everything that can be automated is automated.**  
@@ -40,8 +40,9 @@ data/
 ├── llm_response/llm_response.json      # LLM-generated answers
 └── results/results.json                # Final evaluation report
 
-params.json                             # Configuration and thresholds
+params.json                             # Configuration (only paths + thresholds)
 models/all-MiniLM-L6-v2/                # Local model (included)
+samples/                                # Educational examples
 ```
 
 ---
@@ -83,7 +84,8 @@ Supports **one or multiple answers per question**:
   "generated": "...",
   "rouge_score": 0.75,
   "semantic_score": 0.83,
-  "passed": false
+  "passed": false,
+  "expected_score": 0.85
 }
 ```
 
@@ -93,6 +95,21 @@ Console summary:
 [✔] 22/30 answers passed (threshold = 0.85)
 [ℹ️ ] Accuracy: 73.33%
 ```
+
+---
+
+## 🎓 Educational Samples
+
+You can explore pre-built examples to test and understand the tool:
+
+```bash
+samples/
+├── #1  → Understanding how LLMs work
+├── #2  → Git best practices for professionals
+└── #3  → Python best practices
+```
+
+Each sample contains a ready-to-use benchmark and LLM response set for quick validation.
 
 ---
 

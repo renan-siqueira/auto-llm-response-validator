@@ -1,0 +1,12 @@
+[
+  { "id": "1", "question": "What is a Large Language Model (LLM)?", "answer": "LLMs are machine learning models trained on massive amounts of text to understand and generate natural language." },
+  { "id": "2", "question": "How are LLMs trained?", "answer": "They are trained using unsupervised learning on large text corpora, predicting the next words in sentences." },
+  { "id": "3", "question": "What does fine-tuning mean in LLMs?", "answer": "Fine-tuning is the process of adjusting a pre-trained model on a specific dataset to improve performance on targeted tasks." },
+  { "id": "4", "question": "What's the difference between GPT and BERT?", "answer": "GPT is autoregressive and generates text sequentially; BERT is bidirectional and better for understanding tasks." },
+  { "id": "5", "question": "What is tokenization in NLP?", "answer": "It's the process of splitting text into smaller units (tokens), like words or subwords." },
+  { "id": "6", "question": "How do LLMs handle context?", "answer": "They use attention mechanisms to assign weights to different parts of the text and maintain coherence." },
+  { "id": "7", "question": "Can LLMs understand code?", "answer": "Yes, if trained with code data, they can interpret and generate code." },
+  { "id": "8", "question": "Do LLMs make mistakes?", "answer": "Yes. Even large models can generate incorrect or inconsistent responses." },
+  { "id": "9", "question": "What is hallucination in LLMs?", "answer": "It’s when the model generates plausible but false or invented responses." },
+  { "id": "10", "question": "How can we evaluate an LLM's quality?", "answer": "We use metrics like ROUGE, BLEU, and semantic similarity to compare generated answers to expected references." }
+]

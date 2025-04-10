@@ -46,7 +46,6 @@ $configContent = @{
     json_path_benchmark = "data/benchmarks/benchmark.json"
     json_path_responses = "data/llm_response/llm_response.json"
     output_path = "data/results/results.json"
-    threshold = 0.75
     semantic_threshold = 0.85
 } | ConvertTo-Json -Depth 2
 
