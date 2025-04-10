@@ -25,7 +25,7 @@ def compute_semantic_score(model, expected, generated):
     return float(score)
 
 
-def compare_responses(benchmark, generated, threshold=0.75, semantic_threshold=0.85):
+def compare_responses(benchmark, generated, semantic_threshold=0.85):
     results = []
     total, passed = 0, 0
 
@@ -54,12 +54,13 @@ def compare_responses(benchmark, generated, threshold=0.75, semantic_threshold=0
 
             results.append({
                 "id": entry_id,
+                "question": benchmark_entry.get("question", ""),
+                "expected": expected,
+                "generated": answer,
                 "rouge_score": round(rouge_score, 4),
                 "semantic_score": round(semantic_score, 4),
                 "passed": success,
-                "question": benchmark_entry.get("question", ""),
-                "expected": expected,
-                "generated": answer
+                "expected_score": semantic_threshold
             })
 
             total += 1
@@ -101,7 +102,6 @@ def validate_llm_responses(params):
     benchmark_path = params["json_path_benchmark"]
     responses_path = params["json_path_responses"]
     output_path = params.get("output_path", "comparison_result.json")
-    rouge_threshold = params.get("threshold", 0.75)
     semantic_threshold = params.get("semantic_threshold", 0.85)
 
     if not os.path.exists(benchmark_path):
@@ -115,7 +115,6 @@ def validate_llm_responses(params):
     results, summary = compare_responses(
         benchmark=benchmark_data,
         generated=generated_data,
-        threshold=rouge_threshold,
         semantic_threshold=semantic_threshold
     )
     print_summary(summary, results=results)
